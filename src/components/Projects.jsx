@@ -28,7 +28,7 @@ function Projects() {
           <p className="text-xl leading-tight mt-2">Full stack applications I've developed</p>
         </div>
 
-        <div className="project flex">
+        <div className="project flex p-20 gap-10 justify-center items-center">
           {Projects.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}

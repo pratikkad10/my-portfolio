@@ -10,7 +10,7 @@ function Home() {
           frontend to backend.
         </p>
         <div>
-          <button className="font-semibold bg-blue-600 rounded-md px-4 py-2 cursor-pointer">Explore Portfolio</button>
+          <button className="font-semibold hover:bg-blue-300 transition-all delay-75  bg-blue-600 rounded-md px-4 py-2 cursor-pointer">Explore Portfolio</button>
         </div>
       </div>
     </div>

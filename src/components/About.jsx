@@ -1,13 +1,18 @@
 import React from "react";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { RiCheckboxCircleFill } from "react-icons/ri";
+import personImg from "../assets/p2.jpg"
+import personImg2 from "../assets/pk-removebg2.png"
 
 function About() {
   return (
     <div className="bg-about h-screen w-full text-zinc-50 p-10 ">
       <div className="flex items-center justify-center w-[85%] mx-auto gap-20 mt-20">
         <div className="image">
-          <div className="h-70 w-70 border-1 border-amber-100 rounded-full"></div>
+          <div className="h-70 w-70  overflow-hidden   rounded-full shadow-2xl  shadow-blue-400">
+            <img src={personImg2} alt="image" />
+          
+          </div>
         </div>
         <div className="content ">
           <h1 className="text-2xl font-bold">About Me</h1>
@@ -40,7 +45,7 @@ function About() {
               </div>
             </div>
           </div>
-          <button className="bg-blue-600 py-2 px-4 rounded mt-4">
+          <button className="bg-blue-600 hover:bg-blue-300 cursor-pointer transition-all delay-75 py-2 px-4 rounded mt-4">
             Download Resume
           </button>
         </div>
