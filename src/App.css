@@ -1,0 +1,20 @@
+.bg-home {
+    /* background-image: linear-gradient(to right, #030912, #0c111a, #121721, #161d28, #1b2230); */
+    background-image:url('/src/assets/portfolio-bg.jpg') ;
+    background-size: cover;
+    
+}
+
+.bg-about{
+    background-image: linear-gradient(to bottom, #030912, #070d17, #0b111b, #0e1320, #111624);
+}
+
+.bg-skills{
+    background-image: linear-gradient(to bottom, #111624, #0e1320, #0b111b, #070d17, #030912);
+}
+
+.bg-projects{
+    /* background-image: linear-gradient(to bottom, #030813, #070d18, #0b111c, #0e1420, #101724);
+     */
+    background-image: linear-gradient(to bottom, #030912, #070d17, #0b111b, #0e1320, #111624);
+}
